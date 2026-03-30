@@ -11,10 +11,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://jsbros-prints.github.io',
-  baseUrl: '/',
+  url: 'https://js-bro-s.github.io',
+  baseUrl: '/jsbros-prints/',
 
-  organizationName: 'jsbros',
+  organizationName: 'js-bro-s',
   projectName: 'jsbros-prints',
 
   onBrokenLinks: 'warn',
@@ -57,7 +57,7 @@ const config: Config = {
           label: 'Catalog',
         },
         {
-          href: 'https://github.com/jsbros/jsbros-prints',
+          href: 'https://github.com/js-bro-s/jsbros-prints',
           label: 'GitHub',
           position: 'right',
         },
@@ -80,7 +80,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/jsbros/jsbros-prints',
+              href: 'https://github.com/js-bro-s/jsbros-prints',
             },
           ],
         },
