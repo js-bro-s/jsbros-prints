@@ -1,4 +1,4 @@
-# JS Bros Prints 🖨️
+# JS Bros Prints
 
 > Small 3D printed fidgets and collectibles designed and sold by JS Bros.
 
@@ -8,13 +8,18 @@ We design, print, and sell items to classmates and friends. Every item in this r
 
 ## What We Sell
 
-| Item | Status | Price (est.) |
-|------|--------|--------------|
-| Fidget cube | ✅ Ready | $2 |
-| Spinning top | ✅ Ready | $1 |
-| Mini sword keychain | 🔄 In progress | $2 |
-| Roblox character figure | 🔄 In progress | $3 |
-| Click button fidget | 📋 Planned | TBD |
+| # | Item | Price | Category |
+|---|------|-------|----------|
+| 1 | Fidget Cube | $2.00 | Fidget |
+| 2 | Spinning Top | $1.00 | Toy |
+| 3 | Mini Sword Keychain | $2.00 | Collectible |
+| 4 | Roblox Character Figure | $3.00 | Collectible |
+| 5 | Click Button Fidget | $1.50 | Fidget |
+| 6 | Phone Stand | $2.50 | Practical |
+| 7 | Dice Set (D6 + D20) | $3.00 | Game |
+| 8 | Name Tag Badge | $2.00 | Custom |
+| 9 | Articulated Dragon | $4.00 | Collectible |
+| 10 | Gear Spinner | $2.00 | Fidget |
 
 Full details → [`catalog/catalog.md`](catalog/catalog.md)
 
@@ -24,10 +29,10 @@ Full details → [`catalog/catalog.md`](catalog/catalog.md)
 
 ```
 jsbros-prints/
+├── catalog/        # Product pages for each item + index
 ├── designs/        # Design notes, sketches, Tinkercad links
 ├── stls/           # Ready-to-print STL files
-├── print-settings/ # Slicer settings for each item
-└── catalog/        # What we're selling and for how much
+└── print-settings/ # Slicer settings for each item
 ```
 
 ---
@@ -37,16 +42,17 @@ jsbros-prints/
 1. Sketch the idea (paper or Tinkercad)
 2. Export the `.stl` file → drop it in `stls/`
 3. Note the print settings → add to `print-settings/`
-4. Add it to the catalog → update `catalog/catalog.md`
-5. Commit: `add spinning-top stl and settings`
+4. Create a catalog page → add to `catalog/`
+5. Update the catalog index → `catalog/catalog.md`
+6. Commit: `add spinning-top stl and settings`
 
 ---
 
 ## Print Setup
 
-- **Printer:** *(add yours here)*
+- **Printer:** Bambu Lab
 - **Material:** PLA
-- **Slicer:** Cura / PrusaSlicer
+- **Slicer:** Bambu Studio
 - **Default layer height:** 0.2mm
 - **Default infill:** 15%
 
